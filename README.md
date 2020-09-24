@@ -1,9 +1,14 @@
 # :trollface: Free Rock Band Website Template :guitar:
 
-
-![Illustrations web page desktop](./img/screenshots/desktop.png)
-![Illustrations web page mobile](./img/screenshots/mobile.png)
-![Illustrations web page mobile menu](./img/screenshots/mobile-menu.png)
+<p align="center">
+  <img width="500" height="283" src="./img/screenshots/desktop.png" alt="Illustrations web page desktop">
+</p>
+<p align="center">
+  <img width="300" height="500" src="./img/screenshots/mobile.png" alt="Illustrations web page mobile">
+</p>
+<p align="center">
+  <img width="300" height="500" src="./img/screenshots//mobile-menu.png" alt="Illustrations web page mobile menu">
+</p>
 
 [Show webpage here](https://gtcore902.github.io/free-rock-band-website-template/)
 
