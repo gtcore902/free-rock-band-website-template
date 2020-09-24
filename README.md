@@ -1,9 +1,9 @@
 # :trollface: Free Rock Band Website Template :guitar:
 
 
-![Illustrations web page desktop](../img/screenshots/esktop.png)
-![Illustrations web page mobile](../img/screenshots/mobile.png)
-![Illustrations web page mobile menu](../img/screenshots/mobile-menu.png)
+![Illustrations web page desktop](./img/screenshots/desktop.png)
+![Illustrations web page mobile](./img/screenshots/mobile.png)
+![Illustrations web page mobile menu](./img/screenshots/mobile-menu.png)
 
 <!-- [Show webpage here](https://gaetantremois.fr) -->
 
