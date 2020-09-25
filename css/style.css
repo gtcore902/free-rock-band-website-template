@@ -713,7 +713,7 @@ button[name=backSite] {
 @media screen and (max-width: 767px) {
   h1 {
     width: 90%;
-    font-size: 3vh;
+    font-size: 4vh;
     bottom: 45%;
   }
 
