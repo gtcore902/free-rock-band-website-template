@@ -31,7 +31,7 @@ git clone https://github.com/gtcore902/free-rock-band-website-template.git
 * your band name in h1 / h2 tags
 * your clip and clip name in video tag
 
-:three: Update 'mainFunctions.js' file to input email address (line 55 / 56).
+:three: Update 'mainFunctions.js' file to input email address (line 62 / 63).
 
 :four: To update yours social network accounts, modify lines 316 / 322 / 326 in the same file.
 
@@ -40,7 +40,8 @@ git clone https://github.com/gtcore902/free-rock-band-website-template.git
 * $text = "your site name" (line 11)
 * $recipient = "your email"
 * $object = "your band name"
-* line 19 = "email from to send form" (you can choose any)
+* $recipient = "input your email here"
+* $object = "input your domain name here"
 * $conf = "yours smtp informations"
 
 :six: Do the same actions in 'sendFormSubscription.php' file.
