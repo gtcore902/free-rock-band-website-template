@@ -25,8 +25,6 @@ a {
 
 body {
 	font-family: "Lato", sans-serif;
-	font-display: swap;
-	font-size: 1rem;
 	color: #FEFEFE;
 	font-size: 16px;
 	background-color: #1A1B1D;
@@ -223,10 +221,8 @@ section {
 	min-height: 100vh;
 	max-height: 100vh;
 	color: #9fa0ac;
-	background: url("../img/bcc-free-template-rock-hard.jpg");
 	background-size: cover;
-	background-position: center;
-	background-color: transparent;
+	background: transparent url("../img/bcc-free-template-rock-hard.jpg") center;
 }
 
 h1 {
@@ -275,7 +271,6 @@ h2#slogan {
 	text-align: center;
 	width: 80%;
 	left: 50%;
-	transform: translateX(-50%);
 	bottom: 10%;
 	font-size: 5vh;
 	font-weight: 600;
@@ -398,8 +393,7 @@ p.miniTitle {
 	text-align: center;
 	color: white;
 	width: 100%;
-	margin: 0;
-	margin-bottom: 20px;
+	margin: 0 0 20px;
 }
 
 p.pink {
@@ -484,8 +478,7 @@ section.blocNewsletter {
 	min-height: inherit;
 	text-align: center;
 	padding: 150px 15%;
-	background: url("../img/background-newsletter.jpg");
-	background-position: 50% 40%;
+	background: url("../img/background-newsletter.jpg") 50% 40%;
 	background-size: cover;
 }
 

@@ -3,13 +3,13 @@ $mail = strip_tags($_POST['mail']);
 $checkRobot = strip_tags($_POST['checkRobot']);
 
 // Text to send
-$texte = "Hi there,<br /><br />";
-$texte = $texte . "Inscription from yoursitename.<br />";
-$texte = $texte . "The elements entered in the form are as follows :<br />";
-$texte = $texte . "Email :  $mail<br /><br />";
-$texte = $texte . "This is an automatic message, do not reply to it.";
+$text = "Hi there,<br /><br />";
+$text = $text . "Inscription from yoursitename.<br />";
+$text = $text . "The elements entered in the form are as follows :<br />";
+$text = $text . "Email :  $mail<br /><br />";
+$text = $text . "This is an automatic message, do not reply to it.";
 
-$texte = stripslashes($texte);
+$text = stripslashes($text);
 
 /// Recipient and subject of the message
 $recipient = "contact@gmail.com"; // input your email here
@@ -25,7 +25,7 @@ $headers = array(
 // Send the message then return data to current page with ajax
 if ($checkRobot == 7) {
     $conf = ini_set('mail', 'mail.gmail.com'); // update yours informations here
-    $sending_ok = mail($recipient, $object, $texte, $headers);
+    $sending_ok = mail($recipient, $object, $text, $headers);
     if ($sending_ok) {
         echo "<p class=\"hardLight\">Thank you for your registration !</p>";
     } else {
