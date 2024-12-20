@@ -18,12 +18,14 @@
 ### How to ?
 
 :one:
+
 ```
 mkdir <your directory>
 git clone https://github.com/gtcore902/free-rock-band-website-template.git
 ```
 
 :two: Updates in 'index.html' :
+
 * 'alt' attributes for img tags
 * input your band name in place of < your band name here >
 * your band name in h1 / h2 tags
@@ -34,9 +36,10 @@ git clone https://github.com/gtcore902/free-rock-band-website-template.git
 :four: To update yours social network accounts, modify lines 316 / 322 / 326 in the same file.
 
 :five: Then you need to update these variables in 'sendFormContact.php' in your code editor to use form sections:
-* $texte = "your site name" (line 11)
-* $destinataire = "your email"
-* $objet = "your band name"
+
+* $text = "your site name" (line 11)
+* $recipient = "your email"
+* $object = "your band name"
 * line 19 = "email from to send form" (you can choose any)
 * $conf = "yours smtp informations"
 
@@ -48,6 +51,7 @@ Deploy this code on your server.
 ### :sunglasses: Want to contribute :question:
 
 Fork this repository :stuck_out_tongue_winking_eye:
+
 ```
 mkdir <your directory>
 git clone https://github.com/gtcore902/free-rock-band-website-template.git

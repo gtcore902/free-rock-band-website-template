@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 	};
 	
-	validateField('#nom', val => val.length < 50, '50 characters max');
+	validateField('#name', val => val.length < 50, '50 characters max');
 	validateField('#telephone', val => /^[0][1-7][0-9]{8}$/.test(val.replace(/ /g, '')), 'Incorrect phone number');
 	validateField('#mail', val => /^[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,6}$/.test(val), 'Incorrect email address');
 	validateField('#checkRobot', val => val === '7', 'Incorrect result of the operation');
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.querySelector('.contactForm')?.addEventListener('submit', function (e) {
 	e.preventDefault();
 	const data = {
-		nom: document.querySelector('#nom').value,
+		name: document.querySelector('#name').value,
 		telephone: document.querySelector('#telephone').value,
 		mail: document.querySelector('#mail').value,
 		message: document.querySelector('#message').value,
@@ -117,15 +117,15 @@ document.querySelector('.contactForm')?.addEventListener('submit', function (e) 
 			.then(response => response.text())
 			.then(html => {
 				document.querySelector('form').style.display = 'none';
-				const retour = document.querySelector('#retourFormulaire');
-				retour.style.cssText = `
+				const messageForm = document.querySelector('#message-container');
+				messageForm.style.cssText = `
                 padding: 10px;
                 margin: 160px auto;
                 color: white;
                 font-size: 1rem;
                 text-align: center;
             `;
-				retour.innerHTML = html;
+				messageForm.innerHTML = html;
 			});
 	} else {
 		alert('Incorrect anti robot check result !');
