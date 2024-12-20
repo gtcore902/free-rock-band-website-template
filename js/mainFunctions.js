@@ -168,3 +168,31 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 	}
 });
+
+// Social icons
+document.addEventListener('DOMContentLoaded', function () {
+	// Locations
+	const cards = document.querySelectorAll('.card');
+	cards.forEach(card => {
+		card.addEventListener('click', function () {
+			window.location.href = 'https://www.instagram.com/';
+		});
+	});
+	
+	// Location socials
+	const facebookLinks = document.querySelectorAll('.facebook');
+	facebookLinks.forEach(facebook => {
+		facebook.addEventListener('click', function (event) {
+			event.preventDefault();
+			window.location.href = 'https://facebook.com/';
+		});
+	});
+	
+	const instagramLinks = document.querySelectorAll('.instagram');
+	instagramLinks.forEach(instagram => {
+		instagram.addEventListener('click', function (event) {
+			event.preventDefault();
+			window.location.href = 'https://www.instagram.com/';
+		});
+	});
+});
